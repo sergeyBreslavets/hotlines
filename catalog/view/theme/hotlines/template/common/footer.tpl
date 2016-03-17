@@ -131,101 +131,15 @@
         </div>
     </div>
     </div>
-    </div>
-    <script src="assets/scripts/script.js"></script>
+    </div>      
+    <script src="catalog/view/theme/hotlines/assets/js/hotlines.js"></script>
     <script type="text/javascript">
-    $(document).ready(function() {
-
-        $('#service_carusel').slick({
-            infinite: true,
-            speed: 300,
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            prevArrow: "#prev-sl-serv",
-            nextArrow: "#next-sl-serv",
-            responsive: [{
-                    breakpoint: 992,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
-                        infinite: true
-
-                    }
-                }, {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1
-                    }
-                }, {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
-            ]
-        });
-
-
-        $('#client__carusel').slick({
-            infinite: true,
-            speed: 300,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            prevArrow: "#prev-sl",
-            nextArrow: "#next-sl",
-
-
-            responsive: [{
-                    breakpoint: 992,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
-                        infinite: true
-
-                    }
-                }, {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1
-                    }
-                }, {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
-            ]
-        });
-    });
-    $(function() {
-        $(window).scroll(function() {
-            var top = $(document).scrollTop();
-            if (top >= 1) {
-                if ($(".menu").hasClass("menu_scroll") === false) {
-                    $(".menu").addClass("menu_scroll");
-                }
-
-
-
-            } else {
-                if ($(".menu").hasClass("menu_scroll") === true) {
-                    $(".menu").removeClass("menu_scroll");
-                }
-
-
-            }
-        });
-    });
+      
+   
+        
+   
+ 
+  
 
 
    

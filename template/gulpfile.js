@@ -96,7 +96,8 @@ var sourcesjs      =  [
 //'bower_components/jquery-ui/jquery-ui.js',
 //'./src/scripts/jquery.ui.datepicker-ru.js',
 //'./src/scripts/calendar.js',
-'./src/scripts/main.js'
+'bower_components/slick-carousel/slick/slick.js',
+'./src/scripts/scripts.js'
 ];
 var custom_sourcesjs = [
     './src/scripts/main.js'
