@@ -228,39 +228,9 @@
     });
 
 
-    // if ($(document).width() <= 993) {
-    //     if ($(".navbar-collapse-custom").hasClass(".navbar-collapse-custom-min") === false) {
-    //         $(".navbar-collapse-custom").addClass("navbar-collapse-custom-min");
-
-    //     }
-    // } else {
-    //     if ($(".navbar-collapse-custom").hasClass(".navbar-collapse-custom-min") === true) {
-    //         $(".navbar-collapse-custom").removeClass(".navbar-collapse-custom-min");
-    //     }
-    // }
-
-
-    // $(window).resize(function() {
-
-    //     if ($(document).width() <= 993) {
-    //         if ($(".navbar-collapse-custom").hasClass(".navbar-collapse-custom-min") === false) {
-    //             $(".navbar-collapse-custom").addClass("navbar-collapse-custom-min");
-    //         }
-
-
-
-    //     } else {
-    //         if ($(".navbar-collapse-custom").hasClass(".navbar-collapse-custom-min") === true) {
-    //             $(".navbar-collapse-custom").removeClass(".navbar-collapse-custom-min");
-    //         }
-    //     }
-    
-    // });
+   
     </script>
-    <!--   // <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
-    <!-- 
-    prev-sl" src="assets/images/service/left.png" alt=""> 
-        <img id="next-sl -->
+   
 </body>
 
 </html>
