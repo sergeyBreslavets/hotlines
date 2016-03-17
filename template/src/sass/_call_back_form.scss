@@ -1,0 +1,46 @@
+.call_back_form {
+    background: url(../images/back_form.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    .call_back_form__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        color: #ffffff;
+    }
+    form {
+        .call_back_form__text {
+            padding-top: 20px;
+            font-family: 'Lato';
+            font-weight: 400;
+            font-style: normal;
+            color: #fff;
+            font-size: 12px;
+        }
+        textarea {
+            resize: none;
+        }
+    }
+    .call_back_form__btn {
+        margin-top: 15px;
+    }
+}
+
+.btn_blue {
+    background: #2771b2;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+    &:hover {
+        text-decoration: none;
+    }
+}

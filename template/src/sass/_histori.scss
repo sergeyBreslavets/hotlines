@@ -1,0 +1,116 @@
+.histori {
+    background: #e03636;
+ 
+    .histori__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        color: #FFF;
+    }
+    .histori__control {
+        position: relative;
+        margin-top: 40px;
+        margin-bottom: 56px;
+        padding-bottom: 1px;
+     
+        .histori__control__band {
+            background: #fff;
+            background: #fff;
+            height: 2px;
+          width: 30px;
+          left: 180px;
+            position: absolute;
+            top: 75px;
+           
+           
+        } 
+        .histori__control__year-hover {
+            cursor: pointer;
+        
+            border-radius: 50%;
+            border: 1px solid transparent;
+            padding: 5px;
+            display: inline-block;
+            &:hover {
+             
+                border: 1px solid #fff;
+                .histori__control__year {
+                    border: 1px solid #fff;
+                    background: #2771b2;
+                }
+            }
+            .histori__control__year {
+              
+                
+                text-align: center;
+                background: #fff;
+                border-radius: 50%;
+                padding: 25px 10px;
+                display: inline-block;
+                font-size: 30px;
+                font-family: 'Lato';
+                font-weight: 200;
+                font-style: normal;
+                border: 1px solid transparent;
+            }
+        }
+    }
+    
+    .histori__slider {
+      margin-top: 60px;
+      
+        .histori__slider__item {
+             h6{
+            font-family: 'Lato';
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            color: #fff;
+             }
+             p{
+            font-family: 'Lato';
+            font-weight: 400;
+            font-style: normal;
+            font-size: 13px;
+            color: #fff;
+            margin-top: 30px;
+             }
+             .pt-25{
+              padding-top: 25px;
+             }
+             
+            .histori__slider__img {
+                width: 100%;
+
+            }
+        }
+    }
+}
+.band{
+    background: #fff;
+    position: absolute;
+    height: 2px;
+    width: 67%;
+    top: 54px;
+    
+     @media (min-width: $screen-xs-min) {
+       
+    }
+    @media (min-width: $screen-sm-min) {
+      left: 160px;
+    }
+    @media (min-width: $screen-md-min) {
+    left: 190px;
+    }
+    @media (min-width: $screen-lg-min) {
+        left: 190px;
+    }
+}
+.z2{
+    z-index: 2;
+}
+.z1{
+    z-index: 1;
+}

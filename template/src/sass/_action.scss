@@ -1,0 +1,74 @@
+.action {
+    // height: 379px;
+    background: url(../images/red_phone.jpg) no-repeat;
+    background-size: cover;
+    .action__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        color: #fff;
+    }
+    .action__sub_text {
+        font-family: 'Lato';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        color: #fff;
+        @media (min-width: $screen-xs-min) {
+            margin-top: 15px;
+            margin-bottom: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        @media (min-width: $screen-sm-min) {
+            margin-top: 25px;
+            margin-bottom: 15px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        @media (min-width: $screen-md-min) {
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        @media (min-width: $screen-lg-min) {
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+    }
+    .action__btn_blue {
+        margin-bottom: 50px;
+        margin-top: 40px;
+        background: #2771b2;
+        border-radius: 3px;
+        border: 1px solid #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding: 10px 20px;
+        text-align: center;
+        color: #fff;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .call_back {
+        width: 100%;
+        @media (min-width: $screen-xs-min) {
+            width: 90%;
+        }
+        @media (min-width: $screen-sm-min) {
+            width: 80%;
+        }
+        @media (min-width: $screen-md-min) {
+            width: 100%;
+        }
+        @media (min-width: $screen-lg-min) {
+            width: 100%;
+        }
+    }
+}

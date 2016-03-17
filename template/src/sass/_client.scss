@@ -1,0 +1,28 @@
+.client {
+    .client__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        color: #e03636;
+    }
+    .client__carusel {
+        margin-bottom: 50px;
+        overflow: hidden;
+        .client__carusel__control-left {
+            cursor: pointer;
+            margin-top: 65px;
+        }
+        .client__carusel__control-right {
+            cursor: pointer;
+            float: right;
+            margin-top: 65px;
+        }
+        .block_item {
+            display: inline-block;
+            text-align: center;
+            padding: 0 47px;
+        }
+    }
+}

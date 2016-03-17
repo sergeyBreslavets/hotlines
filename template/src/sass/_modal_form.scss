@@ -1,0 +1,72 @@
+.modal-form {
+    .modal-form__content {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .modal-header {
+        border-bottom: 0px;
+    }
+    .modal-form__title {
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        color: #e03636;
+        text-align: center;
+    }
+    input {
+        margin-top: 20px;
+    }
+    select {
+        margin-top: 20px;
+        font-family: 'Lato';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+    }
+    label {
+        margin-top: 20px;
+        font-family: 'Lato';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        color: #000;
+    }
+    textarea {
+        margin-top: 20px;
+        font-family: 'Lato';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+    }
+    .modal-form__btn {
+        background: #2771b2;
+        color: #fff;
+    }
+    button {
+        margin-top: 50px;
+        font-family: 'Lato';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+    }
+    p {
+        text-align: center;
+        margin-top: 50px;
+        font-family: 'Lato';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        a {
+            text-decoration: underline;
+            color: #e03636;
+        }
+    }
+    .bnt-close {
+        position: absolute;
+        font-size: 40px;
+        top: 0;
+        right: 8px;
+        color: #000;
+    }
+}

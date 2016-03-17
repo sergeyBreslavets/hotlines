@@ -1,0 +1,52 @@
+.about_us {
+    .breadcrumb {
+        background: #fff;
+        font-family: 'Lato';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        li {
+            color: #000;
+            a {
+                color: #000;
+                text-decoration: none;
+                &:hover {
+                    color: #e03636;
+                }
+            }
+        }
+        .active {
+            &:before {
+                content: "> "
+            }
+        }
+    }
+    .about_us__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 200;
+        font-style: normal;
+        color: #e03636;
+    }
+    .about_us__text {
+        font-family: 'Lato';
+        font-weight: 400;
+        font-style: normal;
+        h4 {
+            margin-top: 40px;
+            font-size: 18px;
+            color: #2771b2;
+        }
+        h5 {
+            margin-top: 40px;
+            font-size: 16px;
+            color: #2771b2;
+        }
+        p {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #000;
+        }
+    }
+}
